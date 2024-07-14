@@ -1,0 +1,69 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.name{
+    font-weight: bold;
+}
+.h1{
+    margin: auto;
+    font-weight: lighter;
+    width: fit-content;
+    padding-bottom: 0.2em;
+    box-shadow: 0 22px 1px -20px white;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-height: 20em;
+}
+.text{
+    color: lightslategray;
+    text-align: center;
+    max-width: 30em;
+}
+.button{
+    color: lightslategrey;
+    background-color: transparent;
+    border: solid white 2px;
+    padding: 0.4em;
+    border-radius: 3px;
+    margin: 0.4em;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button:hover{
+    background-image: linear-gradient(to left,orange, rgb(124, 80, 0));
+    color: white;
+}
+.namelong{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.third{
+    min-width: 0;
+    max-width: 30em;
+    margin-bottom: 7em;
+}
+
+.radio{
+    appearance: none;
+    border: 0.15em solid white;
+    border-radius: 50%;
+    width: 1.2em;
+    height: 1.2em;
+    transform: translateY(0.2em);
+    margin-right: 0.7em;
+}
+
+.radio:checked{
+box-shadow: inset 0 0 0 0.2em #2A2D36;
+background-color: white;
+transition: ease-in-out 0.5s;
+}

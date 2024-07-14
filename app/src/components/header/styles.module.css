@@ -1,0 +1,29 @@
+.header{
+    background-color: black;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    color: white;
+    max-height: 5em;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    background-color: rgb(50, 50, 50);
+    border-radius: 100%;
+    margin: 1em;
+    transition: 0.5s;
+}
+
+.logoimg{
+    margin: 0.5em;
+    width: 2em;
+}
+.title{
+    margin: auto 1em auto 1em;
+}
+
+.logo:hover{
+    background-color: orange;
+}
